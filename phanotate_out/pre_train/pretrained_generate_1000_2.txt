@@ -1,0 +1,5 @@
+#id:	contig_0
+#START	STOP	FRAME	CONTIG	SCORE
+42	338	+	contig_0	-9.931075E+01
+353	823	+	contig_0	-1.430808E+04
+845	1000	+	contig_0	-9.491287E+00

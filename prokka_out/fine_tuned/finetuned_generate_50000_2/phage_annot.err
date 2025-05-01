@@ -1,0 +1,489 @@
+Discrepancy Report Results
+
+Summary
+DISC_PROTEIN_NAMES:All proteins have same name "hypothetical protein"
+FATAL: MISSING_PROTEIN_ID:78 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 78 present
+DISC_COUNT_NUCLEOTIDES:5 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:78 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:5 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:4 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:5 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:5 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:5 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:5 sequences do not include structured comments.
+MISSING_PROJECT:83 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+DiscRep_ALL:DISC_PROTEIN_NAMES::All proteins have same name "hypothetical protein"
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::78 proteins have invalid IDs.
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_1 (length 95)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_2 (length 155)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_3 (length 179)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_4 (length 61)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_5 (length 278)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_6 (length 233)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_7 (length 61)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_8 (length 73)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_9 (length 94)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_10 (length 75)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_11 (length 109)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_12 (length 78)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_13 (length 199)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_14 (length 95)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_15 (length 439)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_16 (length 118)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_17 (length 344)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_18 (length 147)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_19 (length 155)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_20 (length 156)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_21 (length 83)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_22 (length 1110)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_23 (length 164)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_24 (length 145)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_25 (length 49)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_26 (length 491)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_27 (length 104)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_1 (length 81)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_2 (length 42)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_3 (length 121)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_4 (length 284)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_5 (length 107)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_6 (length 420)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_7 (length 127)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_8 (length 403)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_9 (length 187)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_1 (length 117)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_2 (length 301)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_3 (length 49)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_4 (length 132)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_5 (length 96)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_6 (length 227)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_7 (length 122)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_8 (length 157)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_9 (length 57)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_10 (length 52)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_11 (length 203)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_12 (length 110)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3_1 (length 92)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_1 (length 132)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_2 (length 362)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_3 (length 254)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_4 (length 148)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_5 (length 98)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_6 (length 177)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_7 (length 175)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_8 (length 123)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_9 (length 93)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_10 (length 66)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_11 (length 56)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_12 (length 265)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_13 (length 115)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_14 (length 82)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_15 (length 89)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_16 (length 82)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_17 (length 248)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_18 (length 30)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_19 (length 272)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_20 (length 55)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_21 (length 103)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_22 (length 117)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_23 (length 103)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_24 (length 144)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_25 (length 76)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_26 (length 68)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_27 (length 200)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_28 (length 381)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_29 (length 88)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::5 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::5 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 78 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::5 nucleotide Bioseqs are present
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0 (length 18700)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1 (length 7018)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2 (length 7341)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3 (length 811)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4 (length 16126)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::78 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c376-89	PHAGE_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c946-479	PHAGE_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:1260-1799	PHAGE_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:1811-1996	PHAGE_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c2883-2047	PHAGE_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c3631-2930	PHAGE_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c3834-3649	PHAGE_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c4222-4001	PHAGE_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c4560-4276	PHAGE_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c4840-4613	PHAGE_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c5194-4865	PHAGE_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c5432-5196	PHAGE_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c6028-5429	PHAGE_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c6336-6049	PHAGE_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c7643-6324	PHAGE_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c8076-7720	PHAGE_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c9132-8098	PHAGE_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c9568-9125	PHAGE_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c10708-10241	PHAGE_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c11261-10791	PHAGE_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c11525-11274	PHAGE_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c14848-11516	PHAGE_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c15374-14880	PHAGE_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c16032-15595	PHAGE_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c16300-16151	PHAGE_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c18275-16800	PHAGE_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_0:c18614-18300	PHAGE_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:c615-370	PHAGE_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:c772-644	PHAGE_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:c1137-772	PHAGE_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:1960-2814	PHAGE_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:2858-3181	PHAGE_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:3387-4649	PHAGE_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:4618-5001	PHAGE_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:5034-6245	PHAGE_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_1:6345-6908	PHAGE_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:218-571	PHAGE_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:1040-1945	PHAGE_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:2032-2181	PHAGE_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:2178-2576	PHAGE_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:c2863-2573	PHAGE_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:c3687-3004	PHAGE_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:3947-4315	PHAGE_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:c4870-4397	PHAGE_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:c6185-6012	PHAGE_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:c6419-6261	PHAGE_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:c7037-6426	PHAGE_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_2:c7332-7000	PHAGE_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_3:c590-312	PHAGE_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:c802-404	PHAGE_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:962-2050	PHAGE_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:2447-3211	PHAGE_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:3242-3688	PHAGE_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:3730-4026	PHAGE_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:4038-4571	PHAGE_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:4516-5043	PHAGE_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:5040-5411	PHAGE_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:5411-5692	PHAGE_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:5733-5933	PHAGE_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:6125-6295	PHAGE_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:6292-7089	PHAGE_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:7089-7436	PHAGE_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:7610-7858	PHAGE_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:7849-8118	PHAGE_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:8909-9157	PHAGE_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:9201-9947	PHAGE_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:10005-10097	PHAGE_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:10174-10992	PHAGE_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:10989-11156	PHAGE_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:11619-11930	PHAGE_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:11923-12276	PHAGE_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:12501-12812	PHAGE_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:12812-13246	PHAGE_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:13227-13457	PHAGE_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:13457-13663	PHAGE_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:13675-14277	PHAGE_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:14323-15468	PHAGE_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:CDS	hypothetical protein	contig_4:15481-15747	PHAGE_00078
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::5 comment descriptors were found (all same)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0:Annotated using prokka 1.12 from https://github.com/tseemann/prokka
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1:Annotated using prokka 1.12 from https://github.com/tseemann/prokka
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2:Annotated using prokka 1.12 from https://github.com/tseemann/prokka
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3:Annotated using prokka 1.12 from https://github.com/tseemann/prokka
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4:Annotated using prokka 1.12 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::4 protein sequences are shorter than 50 aa.
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_25 (length 49)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_2 (length 42)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_3 (length 49)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_18 (length 30)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::5 bioseqs are missing GenomeAssembly structured comments
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0 (length 18700)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1 (length 7018)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2 (length 7341)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3 (length 811)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4 (length 16126)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::5 molecule types are not set as mRNA.
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0 (length 18700)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1 (length 7018)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2 (length 7341)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3 (length 811)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4 (length 16126)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::5 technique are not set as TSA
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0 (length 18700)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1 (length 7018)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2 (length 7341)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3 (length 811)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4 (length 16126)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::5 sequences do not include structured comments.
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0 (length 18700)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1 (length 7018)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2 (length 7341)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3 (length 811)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4 (length 16126)
+
+DiscRep_ALL:MISSING_PROJECT::83 sequences do not include project.
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0 (length 18700)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_1 (length 95)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_2 (length 155)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_3 (length 179)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_4 (length 61)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_5 (length 278)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_6 (length 233)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_7 (length 61)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_8 (length 73)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_9 (length 94)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_10 (length 75)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_11 (length 109)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_12 (length 78)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_13 (length 199)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_14 (length 95)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_15 (length 439)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_16 (length 118)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_17 (length 344)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_18 (length 147)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_19 (length 155)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_20 (length 156)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_21 (length 83)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_22 (length 1110)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_23 (length 164)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_24 (length 145)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_25 (length 49)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_26 (length 491)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0_27 (length 104)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1 (length 7018)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_1 (length 81)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_2 (length 42)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_3 (length 121)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_4 (length 284)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_5 (length 107)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_6 (length 420)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_7 (length 127)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_8 (length 403)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1_9 (length 187)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2 (length 7341)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_1 (length 117)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_2 (length 301)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_3 (length 49)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_4 (length 132)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_5 (length 96)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_6 (length 227)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_7 (length 122)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_8 (length 157)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_9 (length 57)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_10 (length 52)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_11 (length 203)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2_12 (length 110)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3 (length 811)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3_1 (length 92)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4 (length 16126)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_1 (length 132)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_2 (length 362)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_3 (length 254)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_4 (length 148)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_5 (length 98)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_6 (length 177)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_7 (length 175)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_8 (length 123)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_9 (length 93)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_10 (length 66)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_11 (length 56)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_12 (length 265)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_13 (length 115)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_14 (length 82)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_15 (length 89)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_16 (length 82)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_17 (length 248)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_18 (length 30)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_19 (length 272)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_20 (length 55)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_21 (length 103)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_22 (length 117)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_23 (length 103)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_24 (length 144)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_25 (length 76)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_26 (length 68)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_27 (length 200)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_28 (length 381)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4_29 (length 88)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::5 Molinfos are missing field technique
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_0 (length 18700)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_1 (length 7018)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_2 (length 7341)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_3 (length 811)
+prokka_out/fine_tuned/finetuned_generate_50000_2/phage_annot:contig_4 (length 16126)
+

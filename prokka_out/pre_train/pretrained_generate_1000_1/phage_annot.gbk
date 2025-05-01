@@ -1,0 +1,41 @@
+LOCUS       contig_0                1000 bp    DNA     linear       01-MAY-2025
+DEFINITION  Genus species strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Genus species
+  ORGANISM  Genus species
+            Unclassified.
+COMMENT     Annotated using prokka 1.12 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..1000
+                     /organism="Genus species"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             291..539
+                     /locus_tag="PHAGE_00001"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /translation="MKKAILAFLYQSHLTGKNKNVTFAEAHNVFLKGSGVTDSNYNQP
+                     YVGNIASSVSQDTTRPTSGITLDNMMANLKSLDSEFVF"
+ORIGIN      
+        1 ctgcaacagc agctgatgca aaggcagcaa gagcagcaaa agcggcaaaa ctagctgctg
+       61 tagctgtaac cgtagcagag caaacagcat ctgaaccgca agctacagca gaggtttaca
+      121 ccgcacaaca ggaaaagtta acgaaagaag ttctggatgc cgaaactgat aaaagaataa
+      181 cggctatttt taaagccgca gacatagaca aagcgaaatc tattgctgaa gctgaaaaat
+      241 cagcagtaaa agtagcggac gaaattaaca ataaaccgaa tatttccaat ttgaaaaagg
+      301 caatcttagc atttttatat caatcacatt taacagggaa gaataaaaat gttacatttg
+      361 cggaagcaca taatgtgttt ttaaaaggtt ctggtgttac tgattctaat tataatcagc
+      421 cttatgttgg gaatatagcg tcgagtgtat cgcaggatac aacaaggcca acatctggca
+      481 ttaccttaga taacatgatg gctaatttaa aaagtttgga ttctgagttt gtattttaga
+      541 aagggtgata taagatgttg aagaataaag taacatgggt tgttgaaggc gttgaatata
+      601 gaaataaaag tattaaggat gttgaaggtg gggcagcatg caaggaatac tcaagaagtg
+      661 gggaaaacaa tggaagagta atagctgcag taaatgcagg aatgagagta ccttcttgct
+      721 cagtgccgat ttggaatgaa gctattcgcc agagtgaaaa taaaaaacac ataacgatta
+      781 ttgcaaacgg aatagattta gatgacgaag cagaattctt taatctggct aatgctgata
+      841 ccggaattat aatttgttat gcaacagaat ttgaaaacgt aaaatggcat tcattagcag
+      901 ctacttatgg agatgagatt gctaagtggt tctctaaaat gggtggtaat ttctttgtaa
+      961 caaataagaa cattgacgaa acaacatata aagagcaata
+//

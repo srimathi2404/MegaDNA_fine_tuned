@@ -1,0 +1,41 @@
+>Feature contig_0
+214	744	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00001
+			product	hypothetical protein
+731	1201	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00002
+			product	hypothetical protein
+1189	1506	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00003
+			product	hypothetical protein
+1508	1801	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00004
+			product	hypothetical protein
+2277	3077	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00005
+			product	hypothetical protein
+3132	3458	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00006
+			product	hypothetical protein
+3471	3878	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00007
+			product	hypothetical protein
+4371	3886	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00008
+			product	hypothetical protein
+4627	4385	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00009
+			product	hypothetical protein
+4901	4617	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00010
+			product	hypothetical protein

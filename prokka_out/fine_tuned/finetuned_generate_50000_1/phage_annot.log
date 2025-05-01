@@ -1,0 +1,107 @@
+[11:29:29] This is prokka 1.12
+[11:29:29] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[11:29:29] Homepage is https://github.com/tseemann/prokka
+[11:29:29] Local time is Thu May  1 11:29:29 2025
+[11:29:29] You are zeus
+[11:29:29] Operating system is linux
+[11:29:29] You have BioPerl 1.006924
+[11:29:29] System has 4 cores.
+[11:29:29] Will use maximum of 4 cores.
+[11:29:29] Annotating as >>> Viruses <<<
+[11:29:29] Re-using existing --outdir prokka_out/fine_tuned/finetuned_generate_50000_1
+[11:29:29] Using filename prefix: phage_annot.XXX
+[11:29:29] Setting HMMER_NCPU=1
+[11:29:29] Writing log to: prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.log
+[11:29:29] Command: /home/zeus/miniconda3/envs/cloudspace/bin/prokka --kingdom Viruses --prefix phage_annot --locustag PHAGE --cpus 4 --mincontiglen 0 --outdir prokka_out/fine_tuned/finetuned_generate_50000_1 --force fine_tuned/finetuned_generate_50000_1.fna
+[11:29:29] Appending to PATH: /system/conda/miniconda3/envs/cloudspace/bin
+[11:29:29] Looking for 'aragorn' - found /home/zeus/miniconda3/envs/cloudspace/bin/aragorn
+[11:29:29] Determined aragorn version is 1.2
+[11:29:29] Looking for 'barrnap' - found /home/zeus/miniconda3/envs/cloudspace/bin/barrnap
+[11:29:29] Determined barrnap version is 0.9
+[11:29:29] Looking for 'blastp' - found /home/zeus/miniconda3/envs/cloudspace/bin/blastp
+[11:29:29] Determined blastp version is 2.5
+[11:29:29] Looking for 'cmpress' - found /home/zeus/miniconda3/envs/cloudspace/bin/cmpress
+[11:29:29] Determined cmpress version is 1.1
+[11:29:29] Looking for 'cmscan' - found /home/zeus/miniconda3/envs/cloudspace/bin/cmscan
+[11:29:29] Determined cmscan version is 1.1
+[11:29:29] Looking for 'egrep' - found /usr/bin/egrep
+[11:29:29] Looking for 'find' - found /usr/bin/find
+[11:29:29] Looking for 'grep' - found /usr/bin/grep
+[11:29:29] Looking for 'hmmpress' - found /home/zeus/miniconda3/envs/cloudspace/bin/hmmpress
+[11:29:29] Determined hmmpress version is 3.3
+[11:29:29] Looking for 'hmmscan' - found /home/zeus/miniconda3/envs/cloudspace/bin/hmmscan
+[11:29:29] Determined hmmscan version is 3.3
+[11:29:29] Looking for 'java' - found /home/zeus/miniconda3/envs/cloudspace/bin/java
+[11:29:29] Looking for 'less' - found /usr/bin/less
+[11:29:29] Looking for 'makeblastdb' - found /home/zeus/miniconda3/envs/cloudspace/bin/makeblastdb
+[11:29:29] Determined makeblastdb version is 2.5
+[11:29:29] Looking for 'minced' - found /home/zeus/miniconda3/envs/cloudspace/bin/minced
+[11:29:29] Determined minced version is 4.2
+[11:29:29] Looking for 'parallel' - found /home/zeus/miniconda3/envs/cloudspace/bin/parallel
+[11:29:29] Determined parallel version is 20170422
+[11:29:29] Looking for 'prodigal' - found /home/zeus/miniconda3/envs/cloudspace/bin/prodigal
+[11:29:29] Determined prodigal version is 2.6
+[11:29:29] Looking for 'prokka-genbank_to_fasta_db' - found /home/zeus/miniconda3/envs/cloudspace/bin/prokka-genbank_to_fasta_db
+[11:29:29] Looking for 'sed' - found /usr/bin/sed
+[11:29:29] Looking for 'tbl2asn' - found /home/zeus/miniconda3/envs/cloudspace/bin/tbl2asn
+[11:29:29] Determined tbl2asn version is 25.8
+[11:29:29] Using genetic code table 1.
+[11:29:29] Loading and checking input file: fine_tuned/finetuned_generate_50000_1.fna
+[11:29:29] Wrote 4 contigs totalling 49997 bp.
+[11:29:29] Predicting tRNAs and tmRNAs
+[11:29:29] Running: aragorn -l -gc1  -w prokka_out\/fine_tuned\/finetuned_generate_50000_1\/phage_annot\.fna
+[11:29:29] Found 0 tRNAs
+[11:29:29] Disabling rRNA search: --kingdom=Viruses or --norrna=0
+[11:29:29] Skipping ncRNA search, enable with --rfam if desired.
+[11:29:29] Total of 0 tRNA + rRNA features
+[11:29:29] Searching for CRISPR repeats
+[11:29:29] Found 0 CRISPRs
+[11:29:29] Predicting coding sequences
+[11:29:29] Contigs total 49997 bp, so using meta mode
+[11:29:29] Running: prodigal -i prokka_out\/fine_tuned\/finetuned_generate_50000_1\/phage_annot\.fna -c -m -g 1 -p meta -f sco -q
+[11:29:30] Found 93 CDS
+[11:29:30] Connecting features back to sequences
+[11:29:30] Not using genus-specific database. Try --usegenus to enable it.
+[11:29:30] Annotating CDS, please be patient.
+[11:29:30] Will use 4 CPUs for similarity searching.
+[11:29:30] There are still 93 unannotated CDS left (started with 93)
+[11:29:30] Will use blast to search against /system/conda/miniconda3/envs/cloudspace/bin/../db/kingdom/Viruses/sprot with 4 CPUs
+[11:29:30] Running: cat prokka_out\/fine_tuned\/finetuned_generate_50000_1\/sprot\.faa | parallel --gnu --plain -j 4 --block 1700 --recstart '>' --pipe blastp -query - -db /system/conda/miniconda3/envs/cloudspace/bin/../db/kingdom/Viruses/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_out\/fine_tuned\/finetuned_generate_50000_1\/sprot\.blast 2> /dev/null
+[11:29:30] Deleting unwanted file: prokka_out/fine_tuned/finetuned_generate_50000_1/sprot.faa
+[11:29:30] Deleting unwanted file: prokka_out/fine_tuned/finetuned_generate_50000_1/sprot.blast
+[11:29:30] Labelling remaining 93 proteins as 'hypothetical protein'
+[11:29:30] Found 0 unique /gene codes.
+[11:29:30] Fixed 0 colliding /gene names.
+[11:29:30] Adding /locus_tag identifiers
+[11:29:30] Assigned 93 locus_tags to CDS and RNA features.
+[11:29:30] Writing outputs to prokka_out/fine_tuned/finetuned_generate_50000_1/
+[11:29:30] Generating annotation statistics file
+[11:29:30] Generating Genbank and Sequin files
+[11:29:30] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z prokka_out\/fine_tuned\/finetuned_generate_50000_1\/phage_annot\.err -i prokka_out\/fine_tuned\/finetuned_generate_50000_1\/phage_annot\.fsa 2> /dev/null
+[11:29:31] Deleting unwanted file: prokka_out/fine_tuned/finetuned_generate_50000_1/errorsummary.val
+[11:29:31] Deleting unwanted file: prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.dr
+[11:29:31] Deleting unwanted file: prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.fixedproducts
+[11:29:31] Deleting unwanted file: prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.ecn
+[11:29:31] Deleting unwanted file: prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.val
+[11:29:31] Repairing broken .GBK output that tbl2asn produces...
+[11:29:31] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokka_out\/fine_tuned\/finetuned_generate_50000_1\/phage_annot\.gbf > prokka_out\/fine_tuned\/finetuned_generate_50000_1\/phage_annot\.gbk
+[11:29:31] Deleting unwanted file: prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.gbf
+[11:29:31] Output files:
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.fsa
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.tsv
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.tbl
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.faa
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.fna
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.log
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.err
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.sqn
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.gff
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.gbk
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.txt
+[11:29:31] prokka_out/fine_tuned/finetuned_generate_50000_1/phage_annot.ffn
+[11:29:31] Annotation finished successfully.
+[11:29:31] Walltime used: 0.03 minutes
+[11:29:31] If you use this result please cite the Prokka paper:
+[11:29:31] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[11:29:31] Type 'prokka --citation' for more details.
+[11:29:31] Thank you, come again.

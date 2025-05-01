@@ -1,0 +1,9 @@
+>Feature contig_0
+42	338	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00001
+			product	hypothetical protein
+353	823	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00002
+			product	hypothetical protein

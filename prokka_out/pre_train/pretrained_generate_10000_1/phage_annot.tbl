@@ -1,0 +1,70 @@
+>Feature contig_0
+106	1599	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00001
+			product	hypothetical protein
+1599	1751	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00002
+			product	hypothetical protein
+1804	2286	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00003
+			product	hypothetical protein
+2283	2735	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00004
+			product	hypothetical protein
+3412	2744	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00005
+			product	hypothetical protein
+4001	3519	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00006
+			product	hypothetical protein
+4218	4631	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00007
+			product	hypothetical protein
+4628	5464	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00008
+			product	hypothetical protein
+>Feature contig_1
+13	183	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00009
+			product	hypothetical protein
+421	615	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00010
+			product	hypothetical protein
+640	780	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00011
+			product	hypothetical protein
+793	1293	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00012
+			product	hypothetical protein
+1394	1996	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00013
+			product	hypothetical protein
+1981	2511	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00014
+			product	hypothetical protein
+2630	2758	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00015
+			product	hypothetical protein
+2751	3143	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00016
+			product	hypothetical protein
+3143	3667	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	PHAGE_00017
+			product	hypothetical protein

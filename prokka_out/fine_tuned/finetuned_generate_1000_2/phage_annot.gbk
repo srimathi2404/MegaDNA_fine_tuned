@@ -1,0 +1,50 @@
+LOCUS       contig_0                1000 bp    DNA     linear       01-MAY-2025
+DEFINITION  Genus species strain strain.
+ACCESSION   
+VERSION
+KEYWORDS    .
+SOURCE      Genus species
+  ORGANISM  Genus species
+            Unclassified.
+COMMENT     Annotated using prokka 1.12 from
+            https://github.com/tseemann/prokka.
+FEATURES             Location/Qualifiers
+     source          1..1000
+                     /organism="Genus species"
+                     /mol_type="genomic DNA"
+                     /strain="strain"
+     CDS             complement(105..758)
+                     /locus_tag="PHAGE_00001"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /translation="MLKKNLKKAVLQPDAILNSWSTKKNASKELQTIIENIKKLFKNK
+                     DKESHKIKRINNTKRIGIKEIIYKGGILIGIFNVFGMYIIEKTTFRSLKRSKVGITNF
+                     VIAIGSGFFTNATIIILLLCNTINKIYIDIVYTIINYTIVLLIIVPILFVNKPFQTAL
+                     KKEMKIVAQRFIDLITGVILTVLKACVPQNKQINDMIRFLISKYQYHFTENVAHITP"
+     CDS             complement(798..974)
+                     /locus_tag="PHAGE_00002"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /translation="MENNIAVMKMIYVVDVLTTKMKIRMPEQSLACYQYLVTDMGIKY
+                     YKKKESIVQMIHVL"
+ORIGIN      
+        1 tttcaattgt ttgtgacgtt ccatttatcc tctgattttg cgcctcatat gaaaaaattg
+       61 agacggttgt gggatttttc acagaagtca gaatcttcca gaaactacgg ggtgatatgt
+      121 gctacatttt ctgtaaaatg atactggtat tttgatatta aaaatcttat catatcatta
+      181 atttgtttgt tttgtggaac acatgctttt aatacagtta atataacacc tgttattaag
+      241 tcaataaacc tttgtgctac aattttcatt tcttttttta acgcagtttg aaatggttta
+      301 ttaacaaata atataggaac tatgattaat agtactattg tatagttgat tattgtatat
+      361 acaatgtcta tatatatttt gtttatggta ttacatagta ataatattat aatagttgca
+      421 tttgtaaaaa atccgctccc tattgctatt acgaaatttg taataccaac ttttgatctt
+      481 ttaagtgagc ggaatgttgt tttttctatg atatacattc cgaacacatt aaatattcct
+      541 atcaagattc cacctttata tataatttct ttgattccta ttcttttagt gttatttatt
+      601 cttttaattt tatgactttc tttatcttta tttttgaata gtttcttgat attctcgatt
+      661 atggtctgca attctttcga tgcatttttc ttggtagacc atgaattgag aattgcatcc
+      721 ggttgaagta cggctttttt taggtttttc tttaacattt ttgaataatg catgattaga
+      781 tttatgttta tatcctatta aagtacatgg atcatctgaa ctatactttc tttctttttg
+      841 taatatttta tccccatatc tgttactaaa tattgataac atgccaagct ttgttccggc
+      901 attcttattt tcatttttgt cgttaggaca tctacaacat aaatcatttt cataacagct
+      961 atattgttct ccattattgt tataatcaaa aatcttatgt
+//

@@ -1,0 +1,8 @@
+,CDS_Count,CDS_Count,Hypothetical_Proteins,Hypothetical_Proteins,rRNA,rRNA,tRNA,tRNA
+Model,fine_tuned,pre_train,fine_tuned,pre_train,fine_tuned,pre_train,fine_tuned,pre_train
+Context_Length,,,,,,,,
+1000,1.5,1.5,1.5,1.5,0,0,0,0
+5000,9.0,6.0,9.0,6.0,0,0,0,0
+10000,15.0,15.5,15.0,15.5,0,0,0,0
+25000,43.5,45.0,43.5,45.0,0,0,0,0
+50000,85.5,66.5,85.5,66.5,0,0,0,0

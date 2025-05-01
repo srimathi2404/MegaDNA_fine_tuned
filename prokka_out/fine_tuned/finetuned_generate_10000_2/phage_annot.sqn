@@ -1,0 +1,1191 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 1 } } } ,
+        comment "Annotated using prokka 1.12 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 5 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 1 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2025 } } } ,
+        create-date
+          std {
+            year 2025 ,
+            month 5 ,
+            day 1 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "contig_0" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 10000 ,
+            seq-data
+              iupacna "AGGATTTTAGGCTGCTGAAACAACAACGATATAGCGGGTGGGTTAAACACCTCTT
+TACTCAGGCCAGAACAGCCTTAACTGAAACGCGAATTTTTTATATCTGAAAGATAAGTGGACAATTTTAAAAGGAAGG
+AAAATTTATGACCGCATTTTACAGCTGTTTAGGGCCGACACCGTATAAAAAAGCGAAGCGTAAAAACAAGGTTTGTCC
+GTTGCGTCGGGATTGGAAGCCTGCCGCCGAGTTTCTGAAATATGCCGACAATGTCCGCGGGTCCGAAGGATTGACGCG
+GGCGACGAGCATTGAATACGTTGAATGAAAACCAAGAAAGGATAGATGATGCGAATATCAAAGAAATGCGCCTTGGTT
+TATCCCGAAATGGAAAAGCGAGGCGGCTACACAAAAGTGAGCCAGTGGGGCAAAGTTCCGGGGCTTTCCCCTCCGGAA
+CTAACCGCCGCAAAACTAGAACCGGGCTTTTCCCGCGAGATTGAAAAGGAGCTGGAATTTTGGCACGATCTGCCGGAG
+TTAAACGACGACGAAGACGAAATGCGCAAGAAATAACAGCCCACGCCGGGCGCTTACAGGACATAGACAACACAAAAG
+AACAGAAAAACGGCGTTTAGGTAAAAGCCCGCAAACAACGGTAAAACACACCGAAACGCATTCGGGGTTCGGGTCGCT
+TTTAGTTGGATATTATTTTTTACAAATTTAAGGAATTTTAACGAATACAAAGAAATTTTAGACACAGAAAGGGGTATT
+AAAAGTGAGAAAGGAAAAAATTAGCTTGACGATTAACGACGTTATCAAGGAATTCGGCGCGGTAGATAGGGATTATTC
+CACATTAGAGGGCTTTTTGGGGGAACTGTATTCCGGGTTAATGAAAAAGACAAACCGCAAACATTACCGGACGGCGGT
+TAAGTTGTGGGACAAAGCGGGGATCGAGTACAATGCGGACGGACTTTATACCCCCGTTAGCGGCGTTATGGCGATCCA
+GTATTACGACCGTCACAACGAAACGCCGTGGGGTCCAGTGCCGAAACATTACAATGCACGTGTATATATAGGAAAAGA
+AACAAAGGTCTCCGGCATGATGCTTGATATGGCAAGAAAAGATTTTGGCGATGAACTCGGGAGAGCGTACGCCGCAGC
+CGAAATAGTTAAATCGGCAACAAGAAAAATTATGGGAGCGGATCATTGACATAAAACTGTTTTACAATATGTCGCAGA
+TTCGACCATTTTTAGCGTGGCTCGGATCGTGAGGGGGAAAGATGGAAACGAAACAGAAACCAACTCCGCGGGTATCGC
+GAGAGGTACTGGCGGAGTTGGAAAATATAGTCAAGTCAGTACTGGAAGACTTGATAGAAAAACCGGGCTTTTATAACT
+GCAAAGTCAAGAAAAGGCAGATTACAAGCAAGCGACAAACGCACAAAATAGAAATGTATAAATCAGGCTGATACACAA
+CCGGCTCGCGGGAGGCGGCACAATGCCTTATAACAGGGTTTTCATGAACAATTTCAACTACTACATCGATATACTGAA
+CAAATATCCGTGGAATGTAAAATATACCTACGATCGAAGAGCGTGTCACCAATTCGCTGGATAGCAAGACGGCTGCGA
+CAAGTGGAAAAGCAGAAACCCTGTAAAAAAATTGGATTCCGCTCTTCCGGAAAGTAGCGATAATGAAATTTCATTCGG
+TTGGAAACAGGTTTTGAGAAATAAATAAAACAAAGCAGAAACAGGCTTTTCTGAACCAGAAGTAGAACAGAGAACATA
+CGGTGCAGCCGAAGTCCTCCGGAAGGCTCTAAACGAATACCCGCAGGTGTTCCAAAAGAAAAGACCCGCCGACAGGGG
+AGATATGACGCAGACAAACATATATACCTTCCTGTATATGTTTTATTGGAACGGCAAAAAGTTCGAGAGGATATTACG
+TTCAATGCTTTCGGAAGACAACCGAAAAAAGATGGGCTTTATTGATTTTCCGCTCCTGCAAGACATTACGAAAAAGAA
+ACAGAAAGCAGAGATATTTGAAAGAAGCAAGAGGCTGCTGGAGAAGTCGCAATGGGAAAAGATGAAAAGGCAGTATCT
+GAACAAGCGCAAGATAAGGTCAAAGAAACTGGAAGAATGCGCGAGCAAAAAGCTACAAAAATTAAAGAAAGAATGTAT
+ATCGGTAGCAACGGAACGGCTGAAAAACTTTTCGGCGTATTATCCGTCGCATAGTTGTAAGTTAGAGGAAAGCTCAAG
+CGATGAATATGTATTGTCATTAAAAAAACTCAGCAAGCTTTTTTACAAGCGAGGGGAATTGACACGAAATAGAAGAAA
+TAGCTTACAAAAGTAAAAGACGTTGATTTTCACCCCCGGCCATGGAGGGGGGCAAAAAAATCAAACCAGTACCACGCG
+TACACAAACGAAAAAGGAGGAGATAGCAATGGAAATTAGAAAAGAAAAACGACTTATTGAGCGCGATTACCGGGAAGA
+TTTGGCAATGATAAGACAGGGCGATAGCAGCCACGCTCAAAACCCATTTGACCGCTATTGCGAGGGAAGCGGGCTAAC
+TTTGAACGGTTATTCAACATACAACTATTGGTGTGAAGATTTAACTATACCTCAAGACGGTATAAATGGGCAGTCTGT
+GTGTACAGCTGTGAAATAAATAAAGAAAAGGAGATATGAAAATGGGCAAACAATTACAACCGACACCGTATATTCCGA
+TAAAAACTTACACAGACAAATACAGTCTAAATTTTATCGACCTGAATAAGGAAAAGAAAATGCTTGTACGTCAGGTTA
+ACGTTGACCCGTACAAGATATGGGCGTTGTTTAATCAGTATTCAACAGACCATCCGGCTATGGGTGAACCGTGGGAGG
+ACGCAGGGAAGCCCGACAATTTATGGAGCGAGAACGGCATCCCATTTGAGGTATACAACACAATCATGAAAAATCCGG
+CGCTGCCGAGAGTAGTAGAAGCAACAGACACATTAGCGGCGCACAGCAACATCTATGATAAGTTTAAACCGCAGAAGC
+TTGTAGCCGAGATAAACAAGGCATACAAAGAGAGGTACGATTATGTATGTATACCCGAACTTCGATATGAAGTAGTGA
+AATTATATCTATTCAAGTCGGCAAATAAAGATAGTATTAAAAACATGAAGAAGTACGATTCCAATATGTCAAGTATAT
+TACGGACGATGGATAGGCAATGTAAAATTCAAAAAAGTCCAACTTTCGCCGAACTAAAAATAAAAGGTGATGATAACG
+CCTACCCCTCGACGCAATTATTGAACGCACCTTATTATAATATGGAATTTGCAAACTATCGCAATGGTAACGTAATAT
+ATATGGTTGTCATAGACCCGACAAAAAAAGAAGAGGTGTTCAATTGTATGGAATTACCGAGTGGTGTACAGGTTCAAA
+AACTCGGCATACCCGAAGAGAGACTGTATGATTTGTTAATGTATGCAAGAGGATATACATCAAAGAGAAATCATTACG
+ACTTGACGCAGATAGGAACGATTAAACAAACAATCGGTTTTTTGAAATCAGACCTTGTTGAAAAGTACGTCAATGACT
+ATGACATTGCAACGGTAAATTGGATATTGAGAGAGAAGGGAATGATTTCTAAGAACGAGCAATACGTGTACGATAATG
+AAGATATGACGTATGATGCAAATTTCGCTATGAAATTAAGAACCTTATATGAAAGCAAAGTGCGTTTTGCAACGCCGT
+TGGTTCGGAATGCCGCATTAGCAGTGAATTACGTAGGAGATGGACGGTTTATGGTTCCGTGGAACAAAGAGGGAGAGA
+CGTACATCGCTGTTCAACAAGCGAAAAACCGGGAAAACAGCGGGGAAATGAAGGGCAACGCCGCAACGGAATACTTCG
+ACGCGGGAGGAAATTGCCAAATCATTTGTACACGCCCGACATATGGCACGATTGCACAAACAGCGGGAGCGACCGACA
+GCGGCAATAAAGTGAGTGAGTTTTTCTATGAGGAGGATGAGGAATACTCCGGGATAGAAATTCGAGCAGTTAATGGCA
+AAAACGTTTGTTTAAAATGCGAGTATTCCGACGGCGAAATGGATGAAGAATTCCCACCTATTGAGAGCTGACCGAATT
+TATGATTATATGTATCGTGAACGGCGGTTGGCCGAAAAGACAAATAAACGCAATAGAGAAAGTAAAAGGAGGGAAAGC
+AAAATGAATTTAGTAAGTGGATACGACAGAACAACCGCATACATCTGGGCGGTACAGGATATGAGGGAGATTGCATCT
+GCCGTTAAAGTCGTGGCAAAGCATGTTGAGCCCGAAAAAGACAAACCGCCGGTTATTGATGAGAAGATGAATACAATA
+GCGGGCGATGACGGCGAATACTGGTCCGCCTGCGCTGGCGCAGCAATACGCTTGAGAGATATAACAAAAGCATAAATG
+ATAGGAGTACAACATGAATTTAACAAGATTTTTACAGGCGATACAAGACGGCGAGAGATACATAGACTTTGAAAAAGC
+TATGGAACTGTCGGCAGTCATATATGAGCAACCGGACGGAAAGGATATTGAAATAAACAGAAACGGATATGTGAAAGG
+TGAAGTTATCCCGATACTACTTTTGCCGGTAGCTCACGGAATGATCGTAACGCGGAAGCTGAAACCGCTCATATCACA
+GGCACAACAGGCATTAAAAGAATTGAATAAGAAAGGATTCATCAAAAAGAGTAAACCGGCCGGTGGAATCCTGGAATA
+CGAATTGCAGGAGGTGCGCGGATAATGGCTAAAAAATACCGGAAAGGCATAATAGAAATAAGAGCAAACGCCGAAAGG
+CTTTACATAACAGCGGAGAACCTTGACGCAAGGATTGACCGCCTATCAGATTTGTCGGCGGAGTATTACACGGCGGCA
+GCGTGGGGATGGTATGACAGACAGAAAACGGCGATCGCGGAAGTAATCGAAAACCTTACACAAGCGATACATCAAGGA
+GGGATCAAAGCTATGAAGAGAGACAAAGAAAAAGCATTAAAAAAATATCAGGACTGGGCGAGCCGTGGCGGCGCTGAC
+GCATTTATCAATATCTATAATGAAGAACTTGAAAAGATAGAGAATGCGAAAGAGGTATTTAAAGCGACAAAAAAGCGT
+TATACCGAAACAGTTTCCGGGTATCTGGCCGCCGGAGAAATACAACGAGAAATCATGTGCCAAATGGGAAACTCCGTG
+ATTATCCCCGCAATGGAAAGATTGGGTATAGAACTTGTAAAAATGCTCATAGAGGAAAGGACGGCAAGCAGAACGAGC
+CGGGCAGAAGCACAAAGCGCCGACTTTGCGGAAATTACCCACGATCCTTTACGCCCGCTATGGGGCGAAGCGTTTAAG
+GAGTGCGAGATAAACGTTATAGAGTTATCAACGTACATTGCGGCGCTTGAATTATCAGCCTGTATGCATGATGAAGAA
+TTAATAAAGCGATTTATAGAGTGCTTGCGATAGGGTCAAAATCACTATATTTCTTTAATTATATTTTAGGGATATTTA
+GCAGCCCCGCTAAAAAACGCCGGGTTGCGGAGGGTGTGCGCCCCTTTTTAGCTATTTAGAGTAAATTTGACAAGGACT
+AAAAGAAAGGAAGGGCGGTAAAACATGGCAGATAACCAGCACAAGAAAGGCTATATTGTGAATATGAACCCAAATTTT
+GCGGAGGCGGATGCAAAGCGTAAAAAAAGATTTTCTTTAATGGGTCTATCGGTGAGTGATGAACAAATAAAATTTATT
+GATATGGAGCAAATGGCACACAGGGAGATACAAGAAATAAAACGAGACGAAATGAATTTAAAAAGCCCTACCACAAAG
+ACACTGGAAAGAGCAGTTGAGAAGATGGAAAACACACCGGAAACCCAGGAGGGCGCAGCAGTGGCGTGGAGTTTAGGG
+GAAATTGAAGCAGGGCGGCGCGCAATGGTAAACAATGTACAATCATATATCAATACAGAATTATTGACTTTTACAGAA
+AGTGAAGAATTGCAGGCAATGAAATTACAAGAGGTTGCAGCGTCATGGAGTATTTTTGAAAATTTTATGCCGGAAGCA
+ATACAGTTAGTAGAAAACCAGGGGAATTTAAGCGTGGTCCGTGGCATTGCAACAAAAGAAACCACGCCGGAAGAACAA
+TTAGAAGAAATTATCATCCATCGCCGCAGAATATCAAACCGGGCGGAAATGCTGGTAACAATGGCGCACACGGAATAT
+GAAAATGTTTTGCAGCTATCAGAATTGCAGTTAGAAACGCTTGTGTATAGAAACCCGGAACTTGTTAACGACGGCATA
+AAATTTGAGGGTATTCGTGGAAATTATCCGGTTTGGGAAAGGAAGATAAAAGACGGCGGCGAACCCTGGGTTTATACA
+TCCACAGATTATAAAGGGGCAAAAGAAAATTTTAAAGAAATGATACGGAAATGCGGTTTTAGAAAGGGTATGAATTTT
+GAAATTGAAAAAATCCGGGAAATGAAGAATTATGAAAAGGCGGATAGAAACAAAGAGATAGAGGAAACGATAAGCGAT
+TTAAATTTTTCAACATGGCAAAAAGTAGTTTTCCAGGTCCCTAAAAAGGCAATCGAAATCTTAAAGGCGAAGTTTAGT
+AAAAAGTAAAGCGGTTGAGCGTATGGCGGCCGCCTATTTTTGTTGTGTATACACAAAAATTTTAGAATGATGATAAAG
+AGTAACAAAGAAAGAAGAAAGATTAACGAGATTTTGGCGATACTTTATGAAAATATAGGGATTATAGTAACCCCGGAA
+ACATCCGAAAGCATACAAAATATGTTACGGGATGCGATTAAATTTGTACCGGGGACAACGACCTTTGAATGGAAAGTG
+GATTGCGAACGTATACCGTATTTTGAAAAAATGGATTACTTAAAGACTATTTATTACGATGTTAGCACGATTGAATTT
+AAGATGGAGTTTGGCGGCGCAATAGTTGCAGGGATGAAACATTATAACGCATACGACTGTTTACGCACAATTAAGTAT
+GAGGAGATTGGCGAGTTGGAATATATCGAAAGCAATTTGAAACACGCCAGCAAAAAGGAAAGTTTAGACCATAGGGAA
+CGGAAAATATCACCGACAAAAGAACGGATTTTTGAACTTTTGGCAAGACCAGAGAACGCCGGAATTTCAAACGCAAAG
+AGGATGACCGGGTTAAGTCGCCGCGAAGATTTGGCAGAAATGAACGACGTGGTTATCAAATCATTCCCCGCATTGGTG
+AACAAATACCGCAGACATTACAATGCCGATGAGTACGACGAAATGCCATGCTCTTATATGCAGCCATACAACAAGCTA
+GAAGGAAACATTCTACACAGATATATAACAGATAGCAACACGTATTTCAACAAGTTTGGTAAAGACACAAAGACAGTT
+ATTGAATTGTGCGAGTATGGACTGTATCAGCTGAAAGATGATGAAAATTCCATGAATTGGGAAGCGATACTTAAACTG
+CTTTTAGAGGAATGGGACGCAAATGTACTGAAATTGAAAATTACAGTCGGGCAGGAATACCTAAGCAATGAGGATATG
+GGACGGATCATAGAGTGGTGGGAGCGTTATTACCCTAGTGGAAAGAGCAAGGAGATTATAAATGAGTAAGATAAGAAT
+CGAAAGAGGACGCCCCAGAGCCGTGGAAAGGTGGGGATAAGATGGCAAAGGATGAATATAAATTCGTCAGCCTAAAAG
+AAGTGAGGGGCGAGAAATCAGAGGTTCTAACCGAAGTAAGAAGGCTTAACGCAATAACCAAGACGGAATTGGAATTTG
+ACGGAAGCGTGAACGACAACGGCGAATACCGCATATTACAAGATATGGATGTGGAAGTTAAAAACAACAAAAAAAAAT
+TGATTGCCAACTATTCTAAACAGCAGGCAAAAGAATATGGGGCAGATTTGAAATTACCCCATGGGGACGAAATGGGAG
+AAATAGCACCCGCCGTAGGCGGTATCAAGGGAGACGGGAAAGGAGACCGTAGGACAGGAGAAAGCACCAGGGCAGCCC
+CCGCGCCCCATTATATAGAGGATTTTGAGAAAGTGCAATCATTTATGAGAGCAACGGAACAGGCAGCAGACAGAACCT
+ACAAAGAACTATGTAAGAATATAATCATTGACAACCCAGATAAAATCAAAGTGATAGACCACGTAGCATACGGCAATG
+TCATAATCGGGAGTGAGAAGGCGTTTGCCATCCAGCAATGAGGTGCAATACCGGAAACGCCAGCCCGGCAGAAAAGGC
+GTAACAACAAATGTATAAATCTGCTATGCTTTATGGGCGTGGGGGCGTTCTATCCGGGGGTAAGCCTATAAAAACATA
+TACACGATTGTTATAAAACCTTTTAGTAAGAAGAAATATATATAGATTAAGAAACAGAGAACCAAAGAGAACGAAGCA
+ATAAAGCAGGAAAGAAAGGGCGATTGCCGTAATGAGAAAAGAGGTCGTAGAAAAGCAAATTAAGAAAGTAGAAATCAG
+ATTTAAGGACTTAAGTTTGAATTTATCCCTGGGAATTGAATACGGAAATTACAAAGTGAGCCGTATAGCAGACTTAGA
+GAGAATGTTGAAATACAGCAATTCAGCGAAAGGCGGCGTGTTTTTTGACAGCGTGGAAATGGTAAGGCTTTACGCAGG
+GCTTACAGATGATCCGATTGTAGGCGTTAAGCTGGAGGAAAGTTACACGAAAGAGGTAATAAGCGAAGGAAACAAACC
+AGGCGGCAATATGGACAATGGCAAACCATACAGTACAAAGCACGTAGACAGCGAAGAGGATTTATTTATGCCCCAGGG
+TTTACAGTTCAAGAGTAAATATTTACAACCAAGAAAAGGAGAGTAAAGCAGCAATTGACGCCAGTATGCAAGGGCGGC
+AGCGGATAACCAAGGCAGAACGCTTAAAAGAGCCTAACGAATAGACCTGCTGGATTGGATAAACCTTAAACCGCAGTT
+GACAGCATGAAGAAGTGAAGTAAGAGGCAGGCAGAGACAGCAGAGAAAGAAAAACAGAAAGGAGGAAAGACCAAATGG
+CAGACGGAAAAGATGCGATGGAAAAGGTATTTAAAGACGATATAGAAAAGAACAAGTAGCAATTTGATTGCGCCGTCT
+TTTTTGCGTGGAAATCTGATAGCCCCCAAAATGTAGCACAAAAGCACTAAGGCAAGCGCACAGAAAACAGGTTAGGTA
+AATTCTAAACGACTTTAACTTAACTACATTTAGGATTCTTCTCAGAGATATTGTGCTTGCCTACACCGGGCGGCTTGA
+GGGCTTATTAGCGACTTCAAGACACACAGCACAAGCCTTGAAGTTGCAGGCAGAACGCCATACCGCACGCACTCAAAA
+CGCATTGGGTACAGGAAAGGGGCAGAGCCCAGAAAATGTGGACGCTATCCTGTTCCCGGTACACTTGCCGCACTGGGC
+AGGAGCACAAGGGAGCGGGACAGCGGAAAGTTTCCCGGAAATGAGAGAAATTGACGGACATAAAATCAGAAATCTATA
+TTTTGAAAAGTATGAGAAAGACCGGTTGGATGACGGGAACCTTATAGATGAGAAAAATAGAGAATTAAAGGCAGCAGC
+CGGGGAACTTTGGGAGCATATGGAGCGCAGGAACTACCACAGAGGAACAAAAGAGAACCCAAGAGACAAGGAAAGTAT
+TACTTACGTTCCAATGAAAAAGGGCGAATTAGCGCAGAAGAAGCCGGAAAAGCAGGCGAAGAAGGAAAGTAAACCAAG
+CGAGTATCAGCAGGGCTATGAGTTTGACGAATTAGAAGCATACGGCGCGGATGCGGTATTTGTATTCTGCATCACGGA
+CCTTGCAAGCGCAGTAATACCAGTAAATGAGGTAGATTTTGACGGCTTAGTTAAACTTGTGATAACCGACAAATTACA
+AGAACTAAAAGGACATATAGAAGGATAAGAATATGAAGGCTACAACATTGAGCGGCAGCACCGCAGAAAAAGCAATCC
+AGGAGTTAATAAATACGTTAGACGAGGCGGCAGACCACA" } } ,
+        seq {
+          id {
+            local
+              str "contig_0_1" } ,
+          descr {
+            title "hypothetical protein PHAGE_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 58 ,
+            seq-data
+              ncbieaa "MTAFYSCLGPTPYKKAKRKNKVCPLRRDWKPAAEFLKYADNVRGSEGLTRATSIE
+YVE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 57 ,
+                        id
+                          local
+                            str "contig_0_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_2" } ,
+          descr {
+            title "hypothetical protein PHAGE_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 73 ,
+            seq-data
+              ncbieaa "MRISKKCALVYPEMEKRGGYTKVSQWGKVPGLSPPELTAAKLEPGFSREIEKELE
+FWHDLPELNDDEDEMRKK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 72 ,
+                        id
+                          local
+                            str "contig_0_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_3" } ,
+          descr {
+            title "hypothetical protein PHAGE_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 144 ,
+            seq-data
+              ncbieaa "-RKEKISLTINDVIKEFGAVDRDYSTLEGFLGELYSGLMKKTNRKHYRTAVKLWD
+KAGIEYNADGLYTPVSGVMAIQYYDRHNETPWGPVPKHYNARVYIGKETKVSGMMLDMARKDFGDELGRAYAAAEIVK
+SATRKIMGADH" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 143 ,
+                        id
+                          local
+                            str "contig_0_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_4" } ,
+          descr {
+            title "hypothetical protein PHAGE_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 61 ,
+            seq-data
+              ncbieaa "METKQKPTPRVSREVLAELENIVKSVLEDLIEKPGFYNCKVKKRQITSKRQTHKI
+EMYKSG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 60 ,
+                        id
+                          local
+                            str "contig_0_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_5" } ,
+          descr {
+            title "hypothetical protein PHAGE_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 133 ,
+            seq-data
+              ncbieaa "MLSEDNRKKMGFIDFPLLQDITKKKQKAEIFERSKRLLEKSQWEKMKRQYLNKRK
+IRSKKLEECASKKLQKLKKECISVATERLKNFSAYYPSHSCKLEESSSDEYVLSLKKLSKLFYKRGELTRNRRNSLQK
+" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 132 ,
+                        id
+                          local
+                            str "contig_0_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_6" } ,
+          descr {
+            title "hypothetical protein PHAGE_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 74 ,
+            seq-data
+              ncbieaa "MEIRKEKRLIERDYREDLAMIRQGDSSHAQNPFDRYCEGSGLTLNGYSTYNYWCE
+DLTIPQDGINGQSVCTAVK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 21 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 73 ,
+                        id
+                          local
+                            str "contig_0_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_7" } ,
+          descr {
+            title "hypothetical protein PHAGE_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 477 ,
+            seq-data
+              ncbieaa "MGKQLQPTPYIPIKTYTDKYSLNFIDLNKEKKMLVRQVNVDPYKIWALFNQYSTD
+HPAMGEPWEDAGKPDNLWSENGIPFEVYNTIMKNPALPRVVEATDTLAAHSNIYDKFKPQKLVAEINKAYKERYDYVC
+IPELRYEVVKLYLFKSANKDSIKNMKKYDSNMSSILRTMDRQCKIQKSPTFAELKIKGDDNAYPSTQLLNAPYYNMEF
+ANYRNGNVIYMVVIDPTKKEEVFNCMELPSGVQVQKLGIPEERLYDLLMYARGYTSKRNHYDLTQIGTIKQTIGFLKS
+DLVEKYVNDYDIATVNWILREKGMISKNEQYVYDNEDMTYDANFAMKLRTLYESKVRFATPLVRNAALAVNYVGDGRF
+MVPWNKEGETYIAVQQAKNRENSGEMKGNAATEYFDAGGNCQIICTRPTYGTIAQTAGATDSGNKVSEFFYEEDEEYS
+GIEIRAVNGKNVCLKCEYSDGEMDEEFPPIES" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 22 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 476 ,
+                        id
+                          local
+                            str "contig_0_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_8" } ,
+          descr {
+            title "hypothetical protein PHAGE_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 75 ,
+            seq-data
+              ncbieaa "MNLVSGYDRTTAYIWAVQDMREIASAVKVVAKHVEPEKDKPPVIDEKMNTIAGDD
+GEYWSACAGAAIRLRDITKA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 74 ,
+                        id
+                          local
+                            str "contig_0_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_9" } ,
+          descr {
+            title "hypothetical protein PHAGE_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 107 ,
+            seq-data
+              ncbieaa "MNLTRFLQAIQDGERYIDFEKAMELSAVIYEQPDGKDIEINRNGYVKGEVIPILL
+LPVAHGMIVTRKLKPLISQAQQALKELNKKGFIKKSKPAGGILEYELQEVRG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 106 ,
+                        id
+                          local
+                            str "contig_0_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_10" } ,
+          descr {
+            title "hypothetical protein PHAGE_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 236 ,
+            seq-data
+              ncbieaa "MAKKYRKGIIEIRANAERLYITAENLDARIDRLSDLSAEYYTAAAWGWYDRQKTA
+IAEVIENLTQAIHQGGIKAMKRDKEKALKKYQDWASRGGADAFINIYNEELEKIENAKEVFKATKKRYTETVSGYLAA
+GEIQREIMCQMGNSVIIPAMERLGIELVKMLIEERTASRTSRAEAQSADFAEITHDPLRPLWGEAFKECEINVIELST
+YIAALELSACMHDEELIKRFIECLR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 235 ,
+                        id
+                          local
+                            str "contig_0_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_11" } ,
+          descr {
+            title "hypothetical protein PHAGE_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 332 ,
+            seq-data
+              ncbieaa "MADNQHKKGYIVNMNPNFAEADAKRKKRFSLMGLSVSDEQIKFIDMEQMAHREIQ
+EIKRDEMNLKSPTTKTLERAVEKMENTPETQEGAAVAWSLGEIEAGRRAMVNNVQSYINTELLTFTESEELQAMKLQE
+VAASWSIFENFMPEAIQLVENQGNLSVVRGIATKETTPEEQLEEIIIHRRRISNRAEMLVTMAHTEYENVLQLSELQL
+ETLVYRNPELVNDGIKFEGIRGNYPVWERKIKDGGEPWVYTSTDYKGAKENFKEMIRKCGFRKGMNFEIEKIREMKNY
+EKADRNKEIEETISDLNFSTWQKVVFQVPKKAIEILKAKFSKK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 331 ,
+                        id
+                          local
+                            str "contig_0_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_12" } ,
+          descr {
+            title "hypothetical protein PHAGE_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 321 ,
+            seq-data
+              ncbieaa "MLCIHKNFRMMIKSNKERRKINEILAILYENIGIIVTPETSESIQNMLRDAIKFV
+PGTTTFEWKVDCERIPYFEKMDYLKTIYYDVSTIEFKMEFGGAIVAGMKHYNAYDCLRTIKYEEIGELEYIESNLKHA
+SKKESLDHRERKISPTKERIFELLARPENAGISNAKRMTGLSRREDLAEMNDVVIKSFPALVNKYRRHYNADEYDEMP
+CSYMQPYNKLEGNILHRYITDSNTYFNKFGKDTKTVIELCEYGLYQLKDDENSMNWEAILKLLLEEWDANVLKLKITV
+GQEYLSNEDMGRIIEWWERYYPSGKSKEIINE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 27 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 320 ,
+                        id
+                          local
+                            str "contig_0_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_13" } ,
+          descr {
+            title "hypothetical protein PHAGE_00013 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 181 ,
+            seq-data
+              ncbieaa "MAKDEYKFVSLKEVRGEKSEVLTEVRRLNAITKTELEFDGSVNDNGEYRILQDMD
+VEVKNNKKKLIANYSKQQAKEYGADLKLPHGDEMGEIAPAVGGIKGDGKGDRRTGESTRAAPAPHYIEDFEKVQSFMR
+ATEQAADRTYKELCKNIIIDNPDKIKVIDHVAYGNVIIGSEKAFAIQQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 28 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 180 ,
+                        id
+                          local
+                            str "contig_0_13" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_14" } ,
+          descr {
+            title "hypothetical protein PHAGE_00014 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 134 ,
+            seq-data
+              ncbieaa "MRKEVVEKQIKKVEIRFKDLSLNLSLGIEYGNYKVSRIADLERMLKYSNSAKGGV
+FFDSVEMVRLYAGLTDDPIVGVKLEESYTKEVISEGNKPGGNMDNGKPYSTKHVDSEEDLFMPQGLQFKSKYLQPRKG
+E" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 29 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 133 ,
+                        id
+                          local
+                            str "contig_0_14" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_0_15" } ,
+          descr {
+            title "hypothetical protein PHAGE_00015 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 225 ,
+            seq-data
+              ncbieaa "-LAYTGRLEGLLATSRHTAQALKLQAERHTARTQNALGTGKGQSPENVDAILFPV
+HLPHWAGAQGSGTAESFPEMREIDGHKIRNLYFEKYEKDRLDDGNLIDEKNRELKAAAGELWEHMERRNYHRGTKENP
+RDKESITYVPMKKGELAQKKPEKQAKKESKPSEYQQGYEFDELEAYGADAVFVFCITDLASAVIPVNEVDFDGLVKLV
+ITDKLQELKGHIEG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 30 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 224 ,
+                        id
+                          local
+                            str "contig_0_15" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_1" ,
+                location
+                  int {
+                    from 140 ,
+                    to 316 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_2" ,
+                location
+                  int {
+                    from 337 ,
+                    to 558 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_3" ,
+                location
+                  int {
+                    from 761 ,
+                    to 1195 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_4" ,
+                location
+                  int {
+                    from 1266 ,
+                    to 1451 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_5" ,
+                location
+                  int {
+                    from 1931 ,
+                    to 2332 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_6" ,
+                location
+                  int {
+                    from 2423 ,
+                    to 2647 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_7" ,
+                location
+                  int {
+                    from 2670 ,
+                    to 4103 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_8" ,
+                location
+                  int {
+                    from 4192 ,
+                    to 4419 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_9" ,
+                location
+                  int {
+                    from 4436 ,
+                    to 4759 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_10" ,
+                location
+                  int {
+                    from 4759 ,
+                    to 5469 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_11" ,
+                location
+                  int {
+                    from 5617 ,
+                    to 6615 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_12" ,
+                location
+                  int {
+                    from 6646 ,
+                    to 7611 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_13" ,
+                location
+                  int {
+                    from 7662 ,
+                    to 8207 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00013" } } } } ,
+              {
+                id
+                  local
+                    id 14 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_14" ,
+                location
+                  int {
+                    from 8432 ,
+                    to 8836 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00014" } } } } ,
+              {
+                id
+                  local
+                    id 15 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 1 } } ,
+                product
+                  whole
+                    local
+                      str "contig_0_15" ,
+                location
+                  int {
+                    from 9233 ,
+                    to 9910 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_0" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "PHAGE_00015" } } } } } } } } } }

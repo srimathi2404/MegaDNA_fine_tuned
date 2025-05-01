@@ -1,0 +1,4 @@
+#id:	contig_0
+#START	STOP	FRAME	CONTIG	SCORE
+773	105	-	contig_0	-3.993370E+04
+953	798	-	contig_0	-8.182208E+00

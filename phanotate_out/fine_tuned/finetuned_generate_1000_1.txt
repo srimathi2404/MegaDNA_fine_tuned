@@ -1,0 +1,3 @@
+#id:	contig_0
+#START	STOP	FRAME	CONTIG	SCORE
+908	51	-	contig_0	-6.204328E+04

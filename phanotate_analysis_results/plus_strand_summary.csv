@@ -1,0 +1,10 @@
+Model,Context_Length,Strand,Count,Total,Percentage
+fine_tuned,5000,+,21,28,75.0
+fine_tuned,10000,+,26,45,57.8
+fine_tuned,25000,+,35,112,31.2
+fine_tuned,50000,+,169,244,69.3
+pre_train,1000,+,5,5,100.0
+pre_train,5000,+,7,19,36.8
+pre_train,10000,+,21,38,55.3
+pre_train,25000,+,55,127,43.3
+pre_train,50000,+,79,192,41.1
